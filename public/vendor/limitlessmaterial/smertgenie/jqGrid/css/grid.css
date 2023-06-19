@@ -1,0 +1,85 @@
+    @media print {
+        .no-print {
+            display: none;
+        }
+
+        @page {
+            size: landscape
+        }
+    }
+
+    .ui-jqgrid-titlebar.ui-jqgrid-caption.ui-widget-header.ui-corner-top.ui-helper-clearfix {
+        height: 30px !important;
+    }
+
+    td.EditButton {
+        height: 40px !important;
+    }
+
+    a#fbox_jqGrid_reset {
+        height: 30px !important;
+    }
+
+    a#fbox_jqGrid_search {
+        height: 30px !important;
+    }
+
+    div#searchhdfbox_jqGrid {
+        height: 30px !important;
+    }
+
+    .ui-jqgrid tr.footrow-ltr td {
+        text-align: left;
+        border-right-width: 1px;
+        border-right-color: inherit;
+        border-right-style: solid;
+        background: #000000c9;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .ui-search-menu.modal-content.ui-menu.ui-widget.ui-widget-content.ui-corner-all li form div input {
+        width: 100%;
+    }
+
+    .ui-widget-header {
+        border: 1px solid #324148;
+        border-top-color: #324148;
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-right-color: #324148;
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-left-color: #324148;
+        border-left-style: solid;
+        border-left-width: 1px;
+        background: #324148 url("images/ui-bg_gloss-wave_75_2191c0_500x100.png") 50% 50% repeat-x;
+        color: #eaf5f7;
+        font-weight: bold;
+    }
+
+    .ui-state-default,
+    .ui-widget-content .ui-state-default,
+    .ui-widget-header .ui-state-default {
+        padding-bottom: 20px;
+        background: #324148;
+        color: #fff;
+    }
+
+    /* .ui-state-default .ui-icon {
+            background-image: url("images/ui-icons_e0fdff_256x240.png");
+            color: #fff;
+        } */
+
+    .ui-jqgrid .ui-jqgrid-view {
+        position: relative;
+        left: 0;
+        top: 0;
+        padding: 0;
+        font-size: 11px;
+        z-index: 10 !important;
+    }
+
+    .ui-jqgrid.ui-widget.ui-widget-content.ui-corner-all {
+        z-index: 1;
+    }

@@ -1,0 +1,33 @@
+{
+            "name": "limitlessmaterial/actions",
+            "type": "library",
+            "description": "Themegenie Actions",
+            "keywords": [
+                "Laravel"
+            ],
+            "authors": [
+                   {
+                    "name": "Pondit",
+                    "email": "info@pondit.com",
+                    "homepage": "www.pondit.com"
+                    }
+            ],
+            "autoload": {
+                "psr-4": {
+                    "Themegenie\\Actions\\": "src/"
+                }
+            },
+            "autoload-dev": {},
+           
+            "extra": {
+                "copyright": "www.pondit.com",
+                "laravel": {
+                    "providers": [
+                        "Themegenie\\Actions\\ActionsServiceProvider"
+                    ],
+                    "aliases": {}
+                } 
+            },
+            "version":"1.0.0",
+            "license": "MIT"
+        }

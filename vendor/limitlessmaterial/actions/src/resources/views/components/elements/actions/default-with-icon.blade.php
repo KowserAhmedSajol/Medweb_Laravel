@@ -1,0 +1,1 @@
+<button type="button" class="btn btn-light"><i class="icon-make-group mr-2"></i> With icon</button>

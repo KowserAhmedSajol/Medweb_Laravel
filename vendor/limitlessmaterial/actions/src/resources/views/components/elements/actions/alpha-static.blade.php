@@ -1,0 +1,1 @@
+<button type="button" class="btn alpha-blue text-blue-800 border-blue-600">Alpha static</button>

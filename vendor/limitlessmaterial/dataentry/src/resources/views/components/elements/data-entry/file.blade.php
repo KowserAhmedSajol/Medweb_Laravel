@@ -1,0 +1,1 @@
+<input {{ $attributes->class(["form-control-uniform-custom"])->merge(["type" : "file"]) }} />

@@ -1,0 +1,33 @@
+{
+            "name": "limitlessmaterial/datadisplay",
+            "type": "library",
+            "description": "Themegenie DataDisplay",
+            "keywords": [
+                "Laravel"
+            ],
+            "authors": [
+                   {
+                    "name": "Pondit",
+                    "email": "info@pondit.com",
+                    "homepage": "www.pondit.com"
+                    }
+            ],
+            "autoload": {
+                "psr-4": {
+                    "Themegenie\\DataDisplay\\": "src/"
+                }
+            },
+            "autoload-dev": {},
+           
+            "extra": {
+                "copyright": "www.pondit.com",
+                "laravel": {
+                    "providers": [
+                        "Themegenie\\DataDisplay\\DataDisplayServiceProvider"
+                    ],
+                    "aliases": {}
+                } 
+            },
+            "version":"1.0.0",
+            "license": "MIT"
+        }

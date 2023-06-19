@@ -1,0 +1,1 @@
+<button type="button" class="btn bg-teal">Custom teal color</button>

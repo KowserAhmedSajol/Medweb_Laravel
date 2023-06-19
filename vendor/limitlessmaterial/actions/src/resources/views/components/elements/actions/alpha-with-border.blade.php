@@ -1,0 +1,1 @@
+<button type="button" class="btn btn-outline alpha-success text-success-800 border-success-600">Alpha bordered</button>

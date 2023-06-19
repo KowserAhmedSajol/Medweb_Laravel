@@ -1,0 +1,1 @@
+<button type="button" class="btn bg-pink">Custom pink color</button>

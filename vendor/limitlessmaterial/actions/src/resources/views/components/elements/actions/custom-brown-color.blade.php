@@ -1,0 +1,1 @@
+<button type="button" class="btn bg-brown">Custom brown color</button>

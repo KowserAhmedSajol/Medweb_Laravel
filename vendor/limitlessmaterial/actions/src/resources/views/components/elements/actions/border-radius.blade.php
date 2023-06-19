@@ -1,0 +1,1 @@
+<button type="button" class="btn btn-danger rounded-round legitRipple">Rounded button</button>

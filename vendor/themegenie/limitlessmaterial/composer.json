@@ -1,0 +1,35 @@
+{
+            "name": "themegenie/limitlessmaterial",
+            "type": "library",
+            "description": "Laravel component based theme built on limitless material",
+            "keywords": [
+                "Laravel"
+            ],
+            "authors": [
+                   {
+                    "name": "Pondit",
+                    "email": "info@pondit.com",
+                    "homepage": "http://www.pondit.com"
+                    }
+            ],
+            "autoload": {
+                "psr-4": {
+                    "Themegenie\\LimitlessMaterial\\": "src/"
+                }
+            },
+            "autoload-dev": {},
+           
+            "extra": {
+                "copyright": "www.pondit.com",
+                "laravel": {
+                    "providers": [
+                        "Themegenie\\LimitlessMaterial\\LimitlessMaterialServiceProvider"
+                    ],
+                    "aliases": {
+                        
+                    }
+                } 
+            },
+            "version":"1.0.0",
+            "license": "MIT"
+        }

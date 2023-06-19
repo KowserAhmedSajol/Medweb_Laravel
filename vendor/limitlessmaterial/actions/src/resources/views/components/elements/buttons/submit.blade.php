@@ -1,0 +1,1 @@
+<button type="submit" class="btn bg-indigo-800 ml-0 legitRipple">{{ __('Submit') }}<i class="icon-checkmark2 ml-1"></i></button>

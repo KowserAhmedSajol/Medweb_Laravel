@@ -1,0 +1,1 @@
+<label {{ $attributes->class(["col-form-label"])->merge(['']) }}>{{ $slot }}</label>

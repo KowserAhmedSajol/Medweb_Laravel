@@ -1,0 +1,33 @@
+{
+            "name": "limitlessmaterial/dataentry",
+            "type": "library",
+            "description": "Themegenie Form Fields",
+            "keywords": [
+                "Laravel"
+            ],
+            "authors": [
+                   {
+                    "name": "Pondit",
+                    "email": "info@pondit.com",
+                    "homepage": "www.pondit.com"
+                    }
+            ],
+            "autoload": {
+                "psr-4": {
+                    "Themegenie\\DataEntry\\": "src/"
+                }
+            },
+            "autoload-dev": {},
+           
+            "extra": {
+                "copyright": "www.pondit.com",
+                "laravel": {
+                    "providers": [
+                        "Themegenie\\DataEntry\\DataEntryServiceProvider"
+                    ],
+                    "aliases": {}
+                } 
+            },
+            "version":"1.0.0",
+            "license": "MIT"
+        }

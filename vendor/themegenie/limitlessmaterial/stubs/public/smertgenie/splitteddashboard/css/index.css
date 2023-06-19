@@ -1,0 +1,172 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.navbar-nav {
+  width: 100%;
+}
+.burger-menu {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+.bg-success {
+  background-color: #006a4e !important ;
+}
+.background-gray {
+  background-color: #f5f5f5;
+}
+#a,
+#b {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.content-wrapper {
+  height: calc(100vh - 113px);
+  width: 100%;
+}
+
+/* #scroll_content {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 218px);
+}
+*/
+#sidebar {
+  position: relative;
+  /* width: 100%; */
+  /* max-width: 260px; */
+  height: calc(100vh - 270px);
+  padding: 0 0.5rem;
+}
+
+.font-14 {
+  font-size: 14px !important;
+}
+/*c1 tabs */
+/* s */
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.mail_item {
+  display: grid;
+  grid-template-columns: 60px auto 20%;
+  align-items: center;
+}
+.mail_operators ul li a:hover {
+  color: blue !important;
+  background-color: aliceblue;
+  border-radius: 4px;
+}
+.mail_operators ul li a:hover .dropdown-btn {
+  display: block;
+}
+.mail_label ul li:hover {
+  color: blue !important;
+  background-color: aliceblue;
+  border-radius: 4px;
+}
+.mail_contacts ul li {
+  margin: 0.5rem 0;
+}
+.mail_contacts ul li:hover {
+  color: blue !important;
+  background-color: aliceblue;
+  border-radius: 4px;
+}
+.single_action {
+  overflow: hidden;
+}
+/* tiny css */
+
+.card button {
+  align-self: flex-start;
+  margin-top: 10px;
+}
+/* .card span {
+  align-self: flex-end;
+  margin: 5px;
+} */
+.card span > i {
+  margin: 2px;
+}
+#cardContainer {
+  flex-direction: column;
+}
+
+/* .button {
+  cursor: pointer;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  padding: 5px;
+  background-color: #f44336;
+  border-radius: 2px;
+  color: #fff;
+} */
+/* .edit-btn {
+  background-color: #1737ee;
+  color: #fff;
+} */
+.plus-button {
+  cursor: pointer;
+  margin-left: auto;
+  padding: 5px;
+  background-color: #4caf50;
+  border-radius: 2px;
+}
+.text-area {
+  border: none;
+}
+.hidden {
+  display: none;
+}
+
+.mce-notification *,
+.mce-notification .mce-progress .mce-text {
+  display: none;
+}
+
+.tox .tox-tbtn__select-label {
+  margin: 8px 4px !important;
+}
+/* uniform css sidebar check box */
+.form-check .uniform-checker,
+.form-check .uniform-choice {
+  position: absolute;
+  top: -5px !important;
+  left: -5px;
+}
+.a-wrapper {
+  min-width: 260px;
+}
+.b-wrapper {
+  min-width: 400px;
+  z-index: 100;
+}
+.c-wrapper {
+  z-index: 101;
+  background-color: #fff;
+  position: relative;
+  height: calc(100vh - 114px);
+}
+#c .nav-tabs-vertical {
+  background-color: #006a4e;
+  width: 200px !important;
+}
+#c .nav-tabs-vertical li a {
+  color: #fff;
+  padding: 1rem;
+  border: none;
+}
+#c .nav-tabs-vertical li a.active {
+  background-color: #fff;
+  border-color: #ddd transparent;
+  color: #000;
+}
